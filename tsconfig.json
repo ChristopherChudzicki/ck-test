@@ -8,6 +8,11 @@
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
   },
   "include": [
-    "src/**/*"
-  ]
+    "src/**/*",
+    "webpack.config.ts",
+  ],
+  "ts-node": {
+    "files": true,
+    "swc": true
+  }
 }
